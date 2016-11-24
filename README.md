@@ -7,7 +7,7 @@ It provides a GUI where dxf or gcode files can be loaded, previewed and the cutt
 
 Following features are implemented:
 -----------------------------------
-- Automatic connection to the glas cutter (TinyG)
+- Automatic connection to the glass cutter (TinyG)
 - Manual control of the axis, inclusing homing and positioning
 - Loading of dxf and gcode/ngc files
 - Graphical preview of loaded files

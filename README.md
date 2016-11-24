@@ -21,7 +21,14 @@ Dependencies:
 - TinyG for controlling the hardware (stepper motors and end-stops) (https://github.com/synthetos/TinyG).
 - The glass cutter is custom built using a Shapeoko 2 (http://www.shapeoko.com/wiki/). 
 
+Contact:
+--------
+Karl C Gödel
+mail@karl-goedel.de
+
 Screenshots:
 ------------
-![Screen1](https://github.com/kcg/screen1.png "Screenshot 1")
-![Screen2](https://github.com/kcg/screen2.png "Screenshot 2")
+
+![Screen1](https://github.com/kcg/pyGC/blob/master/screenshots/screen1.png "Screenshot 1")
+
+![Screen2](https://github.com/kcg/pyGC/blob/master/screenshots/screen2.png "Screenshot 2")

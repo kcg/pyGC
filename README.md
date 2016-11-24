@@ -16,6 +16,7 @@ Following features are implemented:
 
 Dependencies:
 -------------
+- Linux (tested on Ubuntu 14.04)
 - Python 2.7, wxpython
 - dxf2gcode (http://sourceforge.net/p/dxf2gcode/)
 - TinyG for controlling the hardware (stepper motors and end-stops) (https://github.com/synthetos/TinyG).

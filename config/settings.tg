@@ -1,0 +1,147 @@
+# ---------------------------------------
+# Settings for Shapeoko
+# Last edit: 02/05/2014
+# Created by: Karl C Goedel
+# ---------------------------------------
+#
+# ---------------------------------------
+# System Settings
+# ---------------------------------------
+#
+# Junction acceleration
+$ja=2000000
+#
+# Switch type (normally open)
+$st=0
+#
+# Motor timeout (seconds)
+$mt=10
+#
+# ---------------------------------------
+# Motor settings
+# ---------------------------------------
+#
+# Motor 1 ------------------------
+#
+# Map motor 1 to axis x (0)
+$1ma=0
+# Step angle (degrees)
+$1sa=1.8
+# Travel per revolution
+$1tr=39.915
+# Microsteps
+$1mi=8
+# Polarity
+$1po=0
+# Power mode
+$1pm=0
+#
+#
+# Motor 2 ------------------------
+#
+# Map motor 2 to axis y (1)
+$2ma=1
+$2sa=1.8
+$2tr=39.915
+$2mi=8
+$2po=0
+$2pm=0
+#
+#
+# Motor 4 ------------------------
+#
+# Map motor 4 to axis z (2)
+$4ma=2
+$4sa=1.8
+$4tr=1.25
+$4mi=4
+$4po=1
+$4pm=0
+#
+#
+# Motor 3 ------------------------
+#
+# Map motor 3 to axis y (1)
+$3ma=1
+$3sa=1.8
+$3tr=39.915
+$3mi=8
+# Reverse polarity (dual y)
+$3po=1
+$3pm=0
+#
+# ---------------------------------------
+# Axes settings
+# ---------------------------------------
+#
+# X axis ------------------------
+#
+# Axis mode
+$xam=1
+# Maximum velocity
+$xvm=16000
+# Maximum feedrate
+$xfr=16000
+# Minimum travel
+$xtn=0
+# Maximum travel
+$xtm=220
+#Maximum jerk
+$xjm=5000
+# Junction deviation
+$xjd=0.01
+# Jerk homing
+$xjh=10000000000
+# Search velocity
+$xsv=1500
+# Latch velocity
+$xlv=100
+# Latch backoff
+$xlb=20
+# Zero backoff
+$xzb=3
+# Switch mode min (3=homing and limit)
+$xsn=3
+# Switch mode max (2=limit only)
+$xsx=2
+#
+# Y axis ------------------------
+#
+$yam=1
+$yvm=16000
+$yfr=16000
+$ytn=0
+$ytm=220
+$yjm=5000
+$yjd=0.01
+$yjh=10000000000
+$ysv=1500
+$ylv=100
+$ylb=20
+$yzb=3
+$ysn=3
+$ysx=2
+#
+# Z axis ------------------------
+#
+$zam=1
+$zvm=800
+$zfr=800
+$ztn=0
+$ztm=100
+$zjm=50
+$zjd=0.01
+$zjh=10000000000
+$zsv=3000
+$zlv=100
+$zlb=20
+$zzb=3
+$zsn=2
+$zsx=3
+#
+# A axis ------------------------
+#
+# Disable A
+$aam=0
+$asn=0
+$asx=0

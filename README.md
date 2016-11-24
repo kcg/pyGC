@@ -22,6 +22,13 @@ Dependencies:
 - TinyG for controlling the hardware (stepper motors and end-stops) (https://github.com/synthetos/TinyG).
 - The glass cutter is custom built using a Shapeoko 2 (http://www.shapeoko.com/wiki/). 
 
+Install and Run:
+----------------
+1. Download/Clone pyGC. There is no actual installation necessary.
+2. Install/Download dxf2gcode (https://sourceforge.net/p/dxf2gcode/wiki/Installation/)
+3. Update the path in the config.ini (config/config.ini)
+4. Run "run.sh"
+
 Contact:
 --------
 Karl C. Gödel,
